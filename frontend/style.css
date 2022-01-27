@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+ /*css reset is over*/ 
+
+  body{
+    background-color: #EFD592;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+   }
+
+button{
+    position: absolute;
+    height: 50px;
+    width: 240px;
+    border: 4px solid #242D38;
+    font-family: 'Poppins', sans-serif;
+    color: #242D38;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    line-height: 0; 
+    
+ }
